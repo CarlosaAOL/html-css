@@ -1,0 +1,126 @@
+@charset "UTF8";
+
+@font-face {
+    font-family:android;
+    src: url('fontes/idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(195, 248, 195);
+    margin: 0px;
+}
+
+h2{
+    font-family: android, Arial, Helvetica, verdana, sans-serif ;
+    background-color: rgb(202, 255, 202);
+    color: rgb(21, 117, 21);
+    padding-left: 20px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(7, 190, 7), rgb(1, 39, 1));
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    color: white;
+    padding-top: 40px;
+}
+
+header > h1{
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.438);
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+}
+
+nav{
+    padding: 4px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgba(106, 204, 139, 0.973);
+    font-weight: bold;
+    margin-right: 40px;
+
+}
+
+nav > a:hover{
+    background-color: rgb(167, 255, 167);
+    color: rgb(16, 95, 16);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main{
+    background-color: white;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.473);
+    padding: 10px;
+    width: 1500px;
+    margin: auto;
+    
+}
+
+main > h1{
+    font-family: android, Arial, Helvetica, verdana, sans-serif;
+    color: rgb(15, 99, 15);
+    font-size: 2em;
+}
+
+main > a{
+    background-color: green;
+  color: green;
+}
+
+div{
+    background-color: green;
+    width: 800px;
+    height: 400px;
+}
+
+article{
+    background-color: rgb(202, 250, 202);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+article > h3{
+    background-color: rgb(23, 77, 23);  
+    margin-top: 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+span{
+    color: rgb(1, 82, 1);
+    font-weight: bold;
+}
+
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(1, 65, 1);
+    padding: 8px;
+    color: white;
+}
+
+footer > p{
+    font-size: 18px;
+}
