@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercícios de tabelas</h1>
+    <table>
+        <caption>Filmes favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</td>
+                <td>Maria Adriana</td>
+                <td>A procura de um milagre</td>
+                <td>Zotopia</td>
+                <td>Procurando nemo</td>
+            </tr>
+            <tr>
+                <td>Adriele Alves</td>
+                <td>Frozen</td>
+                <td>Minions</td>
+                <td>Enrolados</td>
+            </tr>
+            <tr>
+                <td>Marilene Oliveira</td>
+                <td>Crepusculo</td>
+                <td>Herry potter</td>
+                <td>Doce Lua</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</td>
+                <td>Alexandre Oliveira</td>
+                <td>Wolverine</td>
+                <td>X-man</td>
+                <td>Se beber não case</td>
+            </tr>
+            <tr>
+                <td>Lucas Alves</td>
+                <td>Policial em apuros</td>
+                <td>Bad Boys</td>
+                <td>Anjos da Lei</td>
+            </tr>
+            <tr>
+                <td>Carlos Alexandre</td>
+                <td>Carros</td>
+                <td>Como treinar o seu dragão</td>
+                <td>Kung fu panda</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
